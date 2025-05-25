@@ -1,5 +1,54 @@
+# SBT specific
+target/
+lib_managed/
+test-result/
+test/target/
+build.properties
+.sbt/boot/
+
+# Compiled files
 *.class
+*.jar
 *.log
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# IDE specific
+/.idea/
+/.idea_modules/
+*.iml
+*.ipr
+*.iws
+*.swp
+*~
+.project
+.classpath
+.settings/
+.scala_dependencies
+.tm_conf
+*.bloop
+*.metals
+.scalafmt.conf
+/project/*
+!/project/build.properties
+
+# VSCode
+.vscode/
+
+# Mac OS
+.DS_Store
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Other
+logs/
+tmp/
+temp/
+*.bak
+*.orig
+repl_history
